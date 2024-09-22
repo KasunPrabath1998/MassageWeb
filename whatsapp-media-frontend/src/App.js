@@ -1,4 +1,4 @@
-// src/App.js
+
 import React from 'react';
 import FileUpload from './components/FileUpload';
 import './App.css';
