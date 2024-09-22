@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Media Upload</title>
+</head>
+<body>
+  <h1>Upload Media and Send WhatsApp Message</h1>
+  <form action="/send-media" method="POST" enctype="multipart/form-data">
+    <label for="message">Message:</label>
+    <input type="text" name="message" id="message" placeholder="Enter your message" required>
+    <br><br>
+    <label for="media">Choose media file:</label>
+    <input type="file" name="media" id="media" required>
+    <br><br>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
